@@ -2,24 +2,26 @@ body{
     background: url(../assets/background.png);
 }
 
+
+
 nav{
     color: #fff;
     display: flex;
     font-size: 23px;
-    padding-left: 30px;
+    justify-content: center;
+    background: rgb(58, 24, 31);
 }
-.row {
-    position: relative;
+
+.row ul {
+    margin-top: 0;
     display: flex;
-    color: #fff;
     text-align: center;
-    margin-top: 10px;
 }
 .row ul {
-    display: flex;
-}
-.row ul li {
-    list-style: none;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    margin: 10%;
 }
 
 .row ul li a {
@@ -29,9 +31,23 @@ nav{
     justify-content: space-between;
 }
 
+.row ul  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+ }
+
+.row ul li a {
+    display: block;
+}
+
 .image {
-    border-radius: 5px;
-    align-items: center;
+    text-align: center;
+    display: block;
+    margin-bottom: 70px;
+}
+
+#tracy {
+    text-align: center;
 }
 
 .content, .content2 {
@@ -155,7 +171,7 @@ p {
     color: #fff;
     display: flex;
     align-items: center;
-    margin-top: 120px;
+    margin-top: 50px;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 2rem 0;
